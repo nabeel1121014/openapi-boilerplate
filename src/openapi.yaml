@@ -9,9 +9,9 @@ servers:
   - url: http://petstore.swagger.io/v1
 paths:
   /pets:
-    $ref: "./resources/pets.yaml"
+    $ref: "./paths/pets.yaml"
   /pets/{petId}:
-    $ref: "./resources/pet.yaml"
+    $ref: "./paths/pet.yaml"
 components:
   parameters:
     $ref: "./parameters/_index.yaml"
