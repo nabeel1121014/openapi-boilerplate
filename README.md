@@ -41,20 +41,20 @@ npm run preview
 
 The server starts on http://127.0.0.1:8080
 
-### Postman
-
-The command converts the spec to Postman Collection v2.1.0.
-
-```
-npm run postman
-```
-
 ### Test
 
 The command checks if the spec follows the OpenAPI 3.0 standard.
 
 ```
 npm run test
+```
+
+### Postman
+
+The command converts the spec to Postman Collection v2.1.0.
+
+```
+npm run postman
 ```
 
 ## Contributing
